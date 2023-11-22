@@ -77,7 +77,7 @@ public class Main {
             C[(int) array[j].charAt(l)-48]++;       //odejmuje od elementa 48,bo char '0'==48
         }
         for (int i=1;i<10;i++) {
-            C[i] = C[i] + C[i - 1];     //do każdego elementa tablicy С dodaje sumę elementów mniejszych od тупщ
+            C[i] = C[i] + C[i - 1];     //do każdego elementa tablicy С dodaje sumę elementów mniejszych od niego
 
         }
 
